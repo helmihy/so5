@@ -4,19 +4,19 @@ int main() {
     int i, j, n, time, remain, flag = 0, tq;
     int TotWT = 0, TotTA = 0, AT[100], b[100], rt[100];
 
-    printf("Masukkan jumlah proses : ");
+    printf("Masukkan jumlah proses\t\t\t : ");
     scanf("%d", &n);
     remain = n;
 
     for (i = 0; i < n; i++) {
-        printf("Masukkan arrival time untuk Proses P%d :", i + 1);
+        printf("Masukkan arrival time untuk Proses P%d\t : ", i + 1);
         scanf("%d", &AT[i]);
-        printf("Masukkan burst time untuk Proses P%d :", i + 1);
+        printf("Masukkan burst time untuk Proses P%d\t : ", i + 1);
         scanf("%d", &b[i]);
         rt[i] = b[i];
     }
 
-    printf("Masukkan time quantum ");
+    printf("\nMasukkan time quantum : \t");
     scanf("%d", &tq);
     printf("\n\nProcess\t|Turnaround time|waiting time\n\n");
 
