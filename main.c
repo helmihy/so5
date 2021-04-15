@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-main() {
+void main() {
     // n= banyak proses, AT= Arrival Time, WT= Waiting Time, TAT= TurnAround Time
     // b= burst time, TotWT= Total Waiting Time, TotTA= Total TurnAround time
     // name= nama proses, AvWT= Average Waiting Time, AvTA= Average TurnAround time
